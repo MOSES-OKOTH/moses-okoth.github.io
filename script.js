@@ -1,3 +1,12 @@
+/*Removing the preloader*/
+let preloader = document.getElementById("preloader");
+
+window.addEventListener("load", ()=>{
+    preloader.style = "display: none";
+})
+
+
+
 if(window.innerWidth >= 800){
     //scroll to top button
     document.getElementById('go-up').addEventListener('click', function(){
