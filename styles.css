@@ -61,9 +61,9 @@
         align-items: center;
         height: 10vw;
         width: 10vw;
-        background: orange;
+        /* background: orange; */
         border-radius: 50%;
-        animation: pulse-animation 2s infinite;
+        /* animation: pulse-animation 2s infinite; */
     }
      #preloader .pulse img{
         height: 30vw;
