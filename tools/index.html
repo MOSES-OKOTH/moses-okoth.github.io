@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tools | Moses Okoth</title>
+</head>
+<body>
+    <div id="tools">
+        <a href="./tool.exe" style="background: blue; color: white; border-radius: 4px; padding: 4px;">Download</a>
+    </div>
+
+    <script>
+        let tools = window.getElementById('tools');
+        let username = window.prompt("Enter your username", "Your username");
+
+        if(username === "Moses Okoth"){
+            let password = window.prompt("Enter your password");
+
+            if(password === "password"){
+                tools.style = "display: flex;";
+            }
+        } else{
+            tools.style = "display: hidden;";
+            window.alert("Wrong username");
+        }
+    </script>
+</body>
+</html>
