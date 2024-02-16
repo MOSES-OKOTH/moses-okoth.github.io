@@ -3,27 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tools | Moses Okoth</title>
+    <link rel="icon" href="../icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="tools.css" >
+    <title>Tools | Moses Okoth | Portfolio</title>
 </head>
-<body>
-    <div id="tools">
-        <a href="./tool.exe" style="background: blue; color: white; border-radius: 4px; padding: 4px; display: flex; justify-content: center; align-items: center; text-decoration: none; font-size: 2vw;">Download</a>
+
+<body onload="removePreloader()">
+    <section id="preloader">
+        <div class="pulse">
+            <img src="./preloader2.gif" alt="" loading="eager">
+        </div>
+
+        <p>Loading...</p>
+    </section>
+
+    <section class="headers">
+        <div class="my-name">
+            <i class="fa-solid fa-code"></i>
+            <h3 id="name"></h3>
+        </div>
+
+        <nav>
+            <div id="normal-link">
+                <a href="../index.html#home">Home</a>
+                <a href="../index.html#services">Services</a>
+                <a href="../index.html#projects">Projects</a>
+                <a href="#contacts">Contacts </a>
+            </div>
+            
+            <div id="socials">
+                <a href="https://twitter.com/ASmartkid" title="@ASmatkid | Twitter" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://github.com/MOSES-OKOTH" title="MOSES-OKOTH | Github" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://wa.me/+254714263898" target="_blank"><i class="fa-brands fa-whatsapp" title="Chat | WhatsApp"></i></a>
+                <a href="#home"><i class="fa-solid fa-bars"></i></a>
+            </div>
+        </nav>
+    </section>
+
+
+    <section class="main">
+        <div class="tools-container">
+            <div class="tool">
+                <div class="image">
+                    <img src="office.png" alt="MS Office">
+                </div>
+    
+                <h3>
+                    MS Office Activator
+                </h3>
+    
+                <p>
+                    Get an industry standard tool for activating your microsoft office products from Ace Software Solutions.
+                </p>
+    
+                <div class="download">
+                    <a href="./ToolSet.zip"> <i class="fa-solid fa-arrow-down"></i>  Download Activator</a>
+                </div>
+            </div>
+
+
+            <div class="tool">
+                <div class="image">
+                    <img src="office365.png" alt="MS Office">
+                </div>
+    
+                <h3>
+                    Office 365 Activator
+                </h3>
+    
+                <p>
+                    Get an industry standard tool for activating your microsoft office products from Ace Software Solutions.
+                </p>
+    
+                <div class="download">
+                    <a href="./ToolSet.zip"> <i class="fa-solid fa-arrow-down"></i>  Download Activator</a>
+                </div>
+            </div>
+
+            <div class="tool">
+                <div class="image">
+                    <img src="win10.png" alt="MS Office">
+                </div>
+    
+                <h3>
+                    Windows 10 Activator
+                </h3>
+    
+                <p>
+                    Get an industry standard tool for activating your windows 10 machine from Ace Software Solutions.
+                </p>
+    
+                <div class="download">
+                    <a href="./ToolSet.zip"> <i class="fa-solid fa-arrow-down"></i>  Download Activator</a>
+                </div>
+            </div>
+
+            <div class="tool">
+                <div class="image">
+                    <img src="win11.png" alt="MS Office">
+                </div>
+    
+                <h3>
+                    Windows 11 Activator
+                </h3>
+    
+                <p>
+                    Get the industry standard tool for activating your windows 11 machine from Ace Software Solutions to get up and running.
+                </p>
+    
+                <div class="download">
+                    <a href="./ToolSet.zip"> <i class="fa-solid fa-arrow-down"></i>  Download Activator</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <div class="newsletter">
+            <p>
+                Subscribe to our newsletter
+            </p>
+
+            <form action="">
+                <input type="text" placeholder="Email address">
+                <button type="submit">Subscribe</button>
+            </form>
+            <p>
+                Call Us: 
+                <a href="tel:+254714263898">+254 714 263 898</a>
+            </p>
+        </div>
+
+        <div class="socials">
+            <h3>Follow us:</h3>
+            <a href="https:\\facebook.com/acetha.smartkid" target="_blankgit add ">Facebook</a>
+            <a href="https:\\twitter.com/ASmartkid" target="_blankgit add ">Twitter | X</a>
+            <a href="https:\\instagram.com/ace_k3" target="_blankgit add ">Instagram</a>
+            <a href="https://www.threads.net/@ace_k3" target="_blankgit add ">Threads</a>
+        </div>
+
+        <div class="quick-links">
+            <h3>Quick Links</h3>
+
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#contacts">Contacts</a>
+            <a href="#projects">Projects</a>
+            <a href="#">Blogs</a>
+        </div>
+
+        <div class="others">
+            <a href="#">Privacy</a>
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Security</a>
+            <a href="#">Cookies</a>
+            <a href="#">Licences</a>
+            <a href="#">Settings</a>
+            <a href="#">Accessibility</a>
+        </div>
+    </section>
+
+    <section class="footer">
+        All Rights Reserved. &copy; <span class="year"></span> Ace Software Solutions.
+    </section>
+
+    <div class="to-top" id="go-up">
+        <i class="fa-solid fa-chevron-up"></i>
     </div>
 
-    <script type="text/javascript">
-        let tools = window.getElementById('tools');
-        let username = window.prompt("Enter your username", "Your username");
-
-        if(username === "Moses Okoth"){
-            let password = window.prompt("Enter your password");
-
-            if(password === "password"){
-                tools.style = "display: flex;";
-            }
-        } else{
-            tools.style = "display: hidden;";
-            window.alert("Wrong username");
-        }
-    </script>
+    <script src="tools.js"></script>
 </body>
 </html>
