@@ -287,7 +287,7 @@
     
     .newsletter input{
         padding: 4px;
-        height: 1.8rem;
+        height: 2.5rem;
         width: 90%;
         border-radius: 4px 0px 0px 4px;
         border: none;
@@ -653,11 +653,11 @@
     
     .newsletter{
         color: var(--white);
-        width: 90%;
+        width: 98%;
     }
     
     .newsletter p{
-        font-size: 0.85rem;
+        font-size: 1rem;
         margin-bottom: 10%;
     }
     
@@ -669,14 +669,14 @@
     
     .newsletter input{
         padding: 4px;
-        height: 1.5rem;
-        width: 90%;
+        height: 2.5rem;
+        width: 100%;
         border-radius: 4px 0px 0px 4px;
         border: none;
     }
     
     .newsletter input::placeholder{
-        font-size: 0.75rem;
+        font-size: 1.05rem;
     }
     
     .newsletter button{
@@ -685,14 +685,14 @@
         background: red;
         border: none;
         border-radius: 0px 4px 4px 0px;
-        font-size: 0.75rem;
+        font-size: 1.055rem;
         cursor: pointer;
     }
     
     .newsletter a{
         text-decoration: none;
         color: var(--white);
-        font-size: 0.75rem;
+        font-size: 1rem;
     }
     
     .socials{
@@ -705,7 +705,7 @@
     .socials a{
         text-decoration: none;
         color: var(--white);
-        font-size: 0.75rem;
+        font-size: 1.05rem;
         padding: 0.2rem 0.4rem;
         border-radius: 4px;
     }
@@ -717,7 +717,7 @@
     
     .socials h3{
         color: var(--orange1);
-        font-size: 0.8rem;
+        font-size: 1.1rem;
         margin-left: 0.2rem;
     }
     
@@ -729,7 +729,7 @@
     
     .quick-links a{
         text-decoration: none;
-        font-size: 0.75rem;
+        font-size: 1.05rem;
         color: var(--white);
         padding: 0.2rem 0.4rem;
         border-radius: 4px;
@@ -741,7 +741,7 @@
     }
     
     .quick-links h3{
-        font-size: 0.8rem;
+        font-size: 1.1rem;
         margin-left: 0.2rem;
     }
     
@@ -753,7 +753,7 @@
     .contacts .others a{
         text-decoration: none;
         color: var(--white);
-        font-size: 0.75rem;
+        font-size: 1rem;
         padding: 4px;
     }
     
@@ -761,6 +761,7 @@
         color: var(--orange1);
         transition: 200ms;
     }
+    
     /*FOOTER*/
     .footer{
         background: var(--bg3);
