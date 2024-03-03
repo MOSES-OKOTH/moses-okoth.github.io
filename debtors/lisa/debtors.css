@@ -761,14 +761,14 @@
         color: var(--orange1);
         transition: 200ms;
     }
-    
+
     /*FOOTER*/
     .footer{
         background: var(--bg3);
         color: var(--white);
         text-align: center;
         width: 100%;
-        font-size: 0.55rem;
+        font-size: 0.96rem;
         padding: 1.5vw;
     }
     
