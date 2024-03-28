@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Workbench&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 2vw;
+}
+
+.wrapper{
+    font-family: 'Workbench';
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.time{
+    font-family: 'Workbench';
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1vw;
+    font-size: 12rem;
+}
+
+.time-container{
+    display: grid;
+}
+
+#hours{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+#mins{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#secs{
+    grid-row: 1;
+    grid-column: 3;
+}
+
+#hours::after{
+    content: ":";
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+#mins::after{
+    content: ":";
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.dates{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+
+.location{
+    text-align: center;
+}
+
+.fullscreen{
+    font-family: 'Orbitron', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: fixed;
+    top: 5rem;
+    right: 5rem;
+}
+
+.fullscreen button{
+    font-family: 'Orbitron', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.25);
+    background: none;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    padding: 5px;
+}
+
+
+.fullscreen button:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.45);
+    border: 2px solid rgba(255, 255, 255, 0.45);
+    transition: 120ms;
+}
