@@ -99,13 +99,10 @@ function getWeather(){
                 }
     )
         })
-    }
-
-    
-    
+    }``
 }
 
-window.setInterval(getWeather, 2000)
+getWeather()
 
 function toggleFullScreen() {
     if (!document.fullscreenElement) {
